@@ -33,11 +33,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "build")))
 
 app.get("/*", (req, res) => {
+    console.log("testing");
     res.sendFile(path.join(__dirname, "build", "index.html"));
+
 })
 
 
 app.get("/login", (req, res) => {
+
     console.log("/login hit")
     const state = generateRandomString(16);
     res.cookie(stateKey, state);
