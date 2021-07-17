@@ -6,7 +6,6 @@ const querystring = require("querystring");
 const path = require('path');
 
 const PORT = process.env.PORT || 80;
-require("dotenv").config();
 
 const client_id = process.env.CLIENT_ID;
 const client_secret = process.env.CLIENT_SECRET;
