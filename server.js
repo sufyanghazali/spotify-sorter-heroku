@@ -89,7 +89,7 @@ app.get("/callback", (req, res) => {
                 const { access_token, refresh_token } = response.data;
                 const query = querystring.stringify(response.data);
 
-                res.redirect(`http://localhost:3000/?${ query }`);
+                res.redirect(`https://spotify-sorting-app.herokuapp.com/?${ query }`);
             })
             .catch(err => console.log(err.message));
     }
