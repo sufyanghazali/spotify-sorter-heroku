@@ -5,7 +5,7 @@ const cors = require("cors");
 const querystring = require("querystring");
 const path = require('path');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 80;
 require("dotenv").config();
 
 const client_id = process.env.CLIENT_ID;
