@@ -1,15 +1,19 @@
 # App
 
--   deploy to heroku
+-   deploy to heroku **DONE**
 -   restructure components as class components **DONE**
 
-# Features
+# Main Features
 
 -   get and render playlists **DONE**
 -   get and render songs from playlist **DONE**
 -   sort playlist and render changes **DONE**
 -   save sorted playlist **DONE**
 -   get full list of songs from playlist **DONE**
+
+# Possible Expansions
+
+-   select multiple playlists to sort
 
 # Components
 
